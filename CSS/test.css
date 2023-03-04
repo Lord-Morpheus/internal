@@ -98,6 +98,11 @@ footer{
     top: 34px;
     font-size: larger;
 }
+footer .website{
+    color: rgb(24, 23, 23);
+    background-color: blueviolet;
+    padding: 3px;
+}
 ul{
     font-size: larger;
     color: red;
@@ -114,4 +119,9 @@ ul{
     background-color: rgba(9, 9, 9, 0.6);
     color: white;
 }
-
+.myorders{
+    position: relative;
+    bottom: 280px;
+    left: 600px;
+    color: white;
+}
