@@ -1,0 +1,24 @@
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: rebeccapurple;
+    background-color: rgba(253, 250, 250, 0.725);
+    padding: 20px;
+    position: relative;
+    bottom: 17px;
+}
+p{
+    font-size: larger;
+}
+table,td,th{
+    background-color: rgb(97, 101, 102);
+    color: white;
+    /* padding: 6px; */
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 1520px;
+    text-align: center;
+}
+form{
+    font-size: larger;
+}
