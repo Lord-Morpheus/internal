@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #92b3d3;
+}
+.contact{
+    background-color: rgb(5, 5, 76);
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    flex-direction: row;
+    /* margin: 10px solid blue; */
+    /* box-shadow: -5px 10px blue; */
+    
+}
+.contact a{
+    color: white;
+    
+}
+.follow {
+    text-align: end;
+    font-size: large;
+    position: relative;
+    bottom: 20px;
+}
+.navigate {
+    text-align: center;
+    display: block;
+    padding: 10px  ;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    word-spacing: 10px;
+}
+.navigate a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}
+.image{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.upper{
+    position: absolute;
+    left: 80%;
+    top:10%;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px grey;
+}
+.filter{
+    text-align: end;
+}
+.filter form select{
+    text-align: center;
+    word-spacing: 20px;
+    background: none;
+    padding: 10px;
+    background-color:rgb(22, 47, 22);
+    color: white;
+}
+.filter button{
+    background: none;
+    padding: 10px;
+    background-color: rgb(22, 47, 22);
+    color: white;
+}
+.problem{
+    position: absolute;
+    width:100%;
+    top: 67%;
+    padding-top:5px;
+    border-style:solid;
+    border-color:blueviolet;
+    border-width:3px;
+    padding-left:3px;
+    padding-bottom:10px;
+    background-color: pink;
+    border-radius: 10px;
+}
+/* .problem div{
+    display: none;
+} */
